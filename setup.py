@@ -8,5 +8,8 @@ setup(name='pash',
       author_email='sinan.hepic@gmail.com',
       license='MIT',
       packages=['pash'],
+      install_requires=[
+          'pexpect',
+      ],
       zip_safe=False)
 
