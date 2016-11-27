@@ -1,5 +1,16 @@
-# Pash
+Pash
+=======================
+
 Run bash session from python
 
-# Usage
+Motivation
+-----------------------
+TODO
+
+How
+-----------------------
+TODO
+
+Usage
+-----------------------
 TODO
