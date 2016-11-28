@@ -18,7 +18,8 @@ setup(name='pash',
       ],
       zip_safe=False,
 
-test_suite='nose.collector',
-    tests_require=['nose'],
+      # Test setup
+      test_suite='nose2.collector.collector',
+      tests_require=['nose2'],
 )
 
