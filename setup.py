@@ -1,10 +1,14 @@
+#!/usr/bin/python
+
 from setuptools import setup
+import os.path
 
 def readme():
     with open('README.rst') as f:
         return f.read()
 
-setup(name='pash',
+def main():
+  setup(name='pash',
       version='0.1',
       description='Run bash session from python',
       long_description=readme(),
@@ -21,5 +25,9 @@ setup(name='pash',
       # Test setup
       test_suite='nose2.collector.collector',
       tests_require=['nose2'],
-)
+  )
 
+
+
+if __name__ == "__main__":
+    main()
